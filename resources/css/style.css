@@ -16,12 +16,17 @@ body {
 	margin: 0 auto;
 }
 
+main {
+	padding: 1rem;
+}
+
 h1 {
 	font-family: "Hammersmith One", sans-serif;
 }
 
 h2 {
-	font-family: "Megrim", cursive;
+	font-family: "Major Mono Display", monospace;
+	color: #64dfdf;
 }
 
 /* Header */
@@ -56,3 +61,5 @@ nav li {
 		margin: 0 0.5rem;
 	}
 }
+
+/* About Me */
