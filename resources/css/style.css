@@ -1,0 +1,58 @@
+/* Universal Style */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 16px;
+	background-color: #252525;
+	color: #80ffdb;
+}
+
+body {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Hammersmith One", sans-serif;
+}
+
+h2 {
+	font-family: "Megrim", cursive;
+}
+
+/* Header */
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	align-items: center;
+}
+
+nav {
+	width: 30%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+@media only screen and (max-width: 900px) {
+	nav ul {
+		display: block;
+		text-align: center;
+	}
+
+	nav li {
+		display: inline-block;
+		margin: 0 0.5rem;
+	}
+}
