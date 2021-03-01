@@ -84,6 +84,10 @@ nav li {
     align-items: flex-start;
 }
 
+.fun-fact {
+    font-weight: bold;
+}
+
 .aboutme-picture img {
     max-width: 70%;
     height: auto;
