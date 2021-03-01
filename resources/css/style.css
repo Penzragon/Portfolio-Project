@@ -71,7 +71,6 @@ nav li {
 
 .aboutme-text {
     width: 50%;
-    text-align: justify;
 }
 
 .aboutme-text p {
@@ -91,4 +90,17 @@ nav li {
     border: 0.5rem solid #30475e;
     border-radius: 5px;
     box-sizing: border-box;
+}
+/* Skills */
+.skills {
+    width: 100%;
+}
+
+.skills .container {
+    margin-top: 1rem;
+}
+
+.skills i {
+    font-size: 3rem;
+    margin-right: 1rem;
 }
