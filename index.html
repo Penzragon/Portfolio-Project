@@ -1,113 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rifky's Portfolio</title>
-        <!--CSS Link-->
-        <link rel="stylesheet" href="./resources/css/style.css" />
-        <!--Font Awesome Link-->
-        <script
-            src="https://kit.fontawesome.com/034da0affc.js"
-            crossorigin="anonymous"
-        ></script>
-        <!--Google Font Link-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Major+Mono+Display&family=Ubuntu:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
-        <!--Javascript Link-->
-        <script src="./resources/javascript/main.js" defer></script>
-    </head>
-    <body>
-        <header>
-            <h1>Rifky Aliffa</h1>
-            <nav>
-                <ul>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Project</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section class="aboutme">
-                <h2>About Me</h2>
-                <div class="aboutme-container">
-                    <div class="aboutme-text">
-                        <p>
-                            Hello, World! My name is Rifky Aliffa. I am a Full
-                            Stack Developer, Software Engineer, and Data
-                            Scientist, in short I'm a
-                            <strong>Programmer</strong>.
-                        </p>
-                        <p>
-                            Madison believes mindfulness in the workplace is key
-                            to success - a tenet he lives out through her
-                            interests in yoga, meditation, gardening, and
-                            painting. Madison is currently working as a
-                            freelance marketing director and is always
-                            interested in a challenge.
-                        </p>
-                        <p class="fun-fact">
-                            Fun fact! I've been programing for
-                            <span id="fact"></span> seconds.
-                        </p>
-                    </div>
-                    <div class="aboutme-picture">
-                        <img src="./resources/images/profile.jpg" alt="" />
-                    </div>
-                </div>
-            </section>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rifky's Portfolio</title>
+		<!--CSS Link-->
+		<link rel="stylesheet" href="./resources/css/style.css" />
+		<!--Font Awesome Link-->
+		<script
+			src="https://kit.fontawesome.com/034da0affc.js"
+			crossorigin="anonymous"
+		></script>
+		<!--Google Font Link-->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Major+Mono+Display&family=Ubuntu:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!--Javascript Link-->
+		<script src="./resources/javascript/main.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>Rifky Aliffa</h1>
+			<nav>
+				<ul>
+					<li>About</li>
+					<li>Skills</li>
+					<li>Project</li>
+					<li>Contact</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="aboutme">
+				<h2>About Me</h2>
+				<div class="aboutme-container">
+					<div class="aboutme-text">
+						<p>
+							Hello, World! My name is Rifky Aliffa. I am a Full
+							Stack Developer, Software Engineer, and Data
+							Scientist, in short I'm a
+							<strong>Programmer</strong>.
+						</p>
+						<p>
+							Madison believes mindfulness in the workplace is key
+							to success - a tenet he lives out through her
+							interests in yoga, meditation, gardening, and
+							painting. Madison is currently working as a
+							freelance marketing director and is always
+							interested in a challenge.
+						</p>
+						<p class="fun-fact">
+							Fun fact! I've been programing for
+							<span id="fact"></span> seconds.
+						</p>
+					</div>
+					<div class="aboutme-picture">
+						<img src="./resources/images/profile.jpg" alt="" />
+					</div>
+				</div>
+			</section>
 
-            <section class="skills">
-                <h2>Skills</h2>
-                <div class="container">
-                    <i
-                        class="fab fa-html5"
-                        onmouseover="changeSize(this)"
-                        onmouseout="resetSize(this)"
-                    ></i>
-                    <i
-                        class="fab fa-css3-alt"
-                        onmouseover="changeSize(this)"
-                        onmouseout="resetSize(this)"
-                    ></i>
-                    <i
-                        class="fab fa-js-square"
-                        onmouseover="changeSize(this)"
-                        onmouseout="resetSize(this)"
-                    ></i>
-                    <i
-                        class="fas fa-database"
-                        onmouseover="changeSize(this)"
-                        onmouseout="resetSize(this)"
-                    ></i>
-                    <i
-                        class="fab fa-python"
-                        onmouseover="changeSize(this)"
-                        onmouseout="resetSize(this)"
-                    ></i>
-                    <i
-                        class="fas fa-terminal"
-                        onmouseover="changeSize(this)"
-                        onmouseout="resetSize(this)"
-                    ></i>
-                    <i
-                        class="fab fa-git-alt"
-                        onmouseover="changeSize(this)"
-                        onmouseout="resetSize(this)"
-                    ></i>
-                    <i
-                        class="fab fa-github"
-                        onmouseover="changeSize(this)"
-                        onmouseout="resetSize(this)"
-                    ></i>
-                </div>
-            </section>
-        </main>
-    </body>
+			<section id="skills">
+				<h2>Skills</h2>
+				<div class="container">
+					<i
+						class="fab fa-html5"
+						onmouseover="changeSize(this)"
+						onmouseout="resetSize(this)"
+					></i>
+					<i
+						class="fab fa-css3-alt"
+						onmouseover="changeSize(this)"
+						onmouseout="resetSize(this)"
+					></i>
+					<i
+						class="fab fa-js-square"
+						onmouseover="changeSize(this)"
+						onmouseout="resetSize(this)"
+					></i>
+					<i
+						class="fas fa-database"
+						onmouseover="changeSize(this)"
+						onmouseout="resetSize(this)"
+					></i>
+					<i
+						class="fab fa-python"
+						onmouseover="changeSize(this)"
+						onmouseout="resetSize(this)"
+					></i>
+					<i
+						class="fas fa-terminal"
+						onmouseover="changeSize(this)"
+						onmouseout="resetSize(this)"
+					></i>
+					<i
+						class="fab fa-git-alt"
+						onmouseover="changeSize(this)"
+						onmouseout="resetSize(this)"
+					></i>
+					<i
+						class="fab fa-github"
+						onmouseover="changeSize(this)"
+						onmouseout="resetSize(this)"
+					></i>
+				</div>
+			</section>
+
+			<section id="projects">
+				<h2>Projects</h2>
+				<div class="container">
+					<details class="project">
+						<summary class="project-title">
+							<h3>South Village Run Club</h3>
+						</summary>
+						<img
+							src="./resources/images/South-Village-Run-Club.png"
+							alt=""
+						/>
+						<a
+							href="https://penzragon.github.io/South-Village-Run-Club/"
+							>Live Demo</a
+						>
+					</details>
+					<details class="project">
+						<summary class="project-title">
+							<h3>The Phantom Dragon</h3>
+						</summary>
+						<img
+							src="./resources/images/Phantom-Dragon.png"
+							alt=""
+						/>
+						<a
+							href="https://penzragon.github.io/The-Phantom-Dragon/"
+							>Live Demo</a
+						>
+					</details>
+					<details class="project">
+						<summary class="project-title">
+							<h3>Excursion</h3>
+						</summary>
+						<img src="./resources/images/Excursion.png" alt="" />
+						<a href="https://penzragon.github.io/Excursion/"
+							>Live Demo</a
+						>
+					</details>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>

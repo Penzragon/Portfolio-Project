@@ -1,110 +1,131 @@
 /* Universal Style */
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 16px;
-    background-color: #dddddd;
-    color: #222831;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 16px;
+	background-color: #dddddd;
+	color: #222831;
 }
 
 body {
-    max-width: 900px;
-    margin: 0 auto;
+	max-width: 900px;
+	margin: 0 auto;
 }
 
 main {
-    padding: 1rem;
+	padding: 1rem;
 }
 
 h1 {
-    font-family: "Hammersmith One", sans-serif;
-    color: #f05454;
+	font-family: "Hammersmith One", sans-serif;
+	color: #f05454;
 }
 
 h2 {
-    font-family: "Major Mono Display", monospace;
-    color: #30475e;
+	font-family: "Major Mono Display", monospace;
+	color: #30475e;
 }
 
 /* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	align-items: center;
 }
 
 nav {
-    width: 30%;
+	width: 30%;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav li {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 @media only screen and (max-width: 900px) {
-    nav ul {
-        display: block;
-        text-align: center;
-    }
+	nav ul {
+		display: block;
+		text-align: center;
+	}
 
-    nav li {
-        display: inline-block;
-        margin: 0 0.5rem;
-    }
+	nav li {
+		display: inline-block;
+		margin: 0 0.5rem;
+	}
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+.container {
+	margin-top: 1rem;
 }
 
 /* About Me */
+#aboutme {
+	width: 100%;
+	height: auto;
+}
 .aboutme-container {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .aboutme-text {
-    width: 50%;
+	width: 50%;
 }
 
 .aboutme-text p {
-    margin: 1rem 0;
+	margin: 1rem 0;
 }
 
 .aboutme-picture {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .fun-fact {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .aboutme-picture img {
-    max-width: 70%;
-    height: auto;
-    border: 0.5rem solid #30475e;
-    border-radius: 5px;
-    box-sizing: border-box;
+	max-width: 70%;
+	height: auto;
+	border: 0.5rem solid #30475e;
+	border-radius: 5px;
+	box-sizing: border-box;
 }
 /* Skills */
-.skills {
-    width: 100%;
+#skills {
+	width: 100%;
 }
 
-.skills .container {
-    margin-top: 1rem;
+#skills i {
+	font-size: 3rem;
+	margin-right: 1rem;
 }
 
-.skills i {
-    font-size: 3rem;
-    margin-right: 1rem;
+/* Projects */
+#projects {
+	width: 100%;
+}
+
+.project-title h3 {
+	display: inline;
+}
+
+#projects img {
+	max-width: 100%;
 }
