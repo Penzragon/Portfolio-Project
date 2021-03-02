@@ -120,9 +120,31 @@ section {
 	border-radius: 5px;
 	box-sizing: border-box;
 }
+
+@media only screen and (max-width: 480px) {
+	.aboutme-container {
+		display: block;
+	}
+
+	.aboutme-text {
+		width: 100%;
+	}
+
+	.aboutme-picture {
+		display: none;
+	}
+}
+
 /* Skills */
 #skills {
 	width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+	#skills i {
+		font-size: 2rem;
+		margin-right: 0.5rem;
+	}
 }
 
 /* Projects */
@@ -150,4 +172,13 @@ details {
 	margin: auto;
 	color: #f05454;
 	font-weight: bold;
+}
+
+/* Contact */
+#contact {
+	width: 100%;
+}
+
+#contact p {
+	margin-top: 1rem;
 }
