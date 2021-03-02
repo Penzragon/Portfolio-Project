@@ -30,6 +30,15 @@ h2 {
 	color: #30475e;
 }
 
+i {
+	font-size: 3rem;
+	margin-right: 1rem;
+}
+
+a {
+	color: inherit;
+}
+
 /* Header */
 header {
 	display: flex;
@@ -49,6 +58,10 @@ nav ul {
 
 nav li {
 	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 900px) {
@@ -112,11 +125,6 @@ section {
 	width: 100%;
 }
 
-#skills i {
-	font-size: 3rem;
-	margin-right: 1rem;
-}
-
 /* Projects */
 #projects {
 	width: 100%;
@@ -132,4 +140,14 @@ details {
 
 #projects img {
 	max-width: 100%;
+}
+
+.project div {
+	margin: 1rem auto;
+}
+
+#projects a {
+	margin: auto;
+	color: #f05454;
+	font-weight: bold;
 }
